@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  border: yellowgreen 5px solid;
+  border-radius: 50%;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  /* background-color: brown; */
+}
+
+.nav-left li {
+  list-style: none;
+  padding: 23px 30px;
+}
+.nav-left li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav-left li a:hover {
+  color: violet;
+}
+.nav-right {
+  width: 50%;
+  /* background-color: blueviolet; */
+  text-align: center;
+}
+
+.nav-background {
+  background: rgba(0, 0, 0, 0.8) url("../images/altis.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+#search {
+  border: tomato 3px solid;
+  border-radius: 25px;
+  padding: 4px;
+  font-size: 1rem;
+}
