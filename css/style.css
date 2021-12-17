@@ -2,9 +2,17 @@
   margin: 0;
   padding: 0;
 }
+.body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
 .navbar {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
 }
 
 .logo {
@@ -39,18 +47,72 @@
 .nav-right {
   width: 50%;
   /* background-color: blueviolet; */
-  text-align: center;
+  text-align: end;
+  padding: 0 25px;
 }
 
 .nav-background {
-  background: rgba(0, 0, 0, 0.8) url("../images/altis.jpg");
+  background: rgba(0, 0, 0, 0.7) url("../images/back.webp");
   background-size: cover;
+  background-repeat: no-repeat;
   background-blend-mode: darken;
 }
 
 #search {
-  border: tomato 3px solid;
+  border: lightgray 4px solid;
   border-radius: 25px;
   padding: 4px;
   font-size: 1rem;
+  background: whitesmoke;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  max-width: 50%;
+  margin: auto;
+  height: inherit;
+}
+
+.first-section {
+  height: 80vh;
+}
+.second-half img {
+  width: 85%;
+  border: aqua 2px solid;
+  border-radius: 100px;
+  display: block;
+  margin: auto;
+}
+
+.first-half {
+  width: 80%;
+}
+.second-half {
+  width: 30%;
+}
+
+.big-text {
+  font-size: 2.2rem;
+}
+
+.small-text {
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: 7px 10px;
+  margin: 5px 6px;
+  border: red 2px solid;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  background: none;
+  color: aqua;
+}
+
+.btn-small {
+  padding: 5px 8px;
 }
