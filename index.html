@@ -14,17 +14,22 @@
     <title>Education Website theme</title>
   </head>
   <body>
-    <nav class="navbar nav-background">
-      <ul class="nav-left">
+    <nav class="navbar nav-background nav-height-for-resp">
+      <ul class="nav-left visibility-for-resp">
         <div class="logo"><img src="./images/logo.png" alt="logo" /></div>
         <li><a href="#home">Home</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Services</a></li>
         <li><a href="">Contact us</a></li>
       </ul>
-      <div class="nav-right">
+      <div class="nav-right visibility-for-resp">
         <input type="text" name="search" id="search" />
         <button class="btn btn-small">search</button>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
     </nav>
     <section class="nav-background first-section">
@@ -126,36 +131,36 @@
       </h2>
       <div class="form">
         <form action="">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your name"
-              class="cinput"
-            />
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your email"
-              class="cinput"
-            />
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your phone"
-              class="cinput"
-            />
-            <textarea
-              name=""
-              id=""
-              placeholder="Enter Your Concerns"
-              class="cinput"
-              cols="30"
-              rows="5"
-            ></textarea>
-            <button class="btn btn-dark">Submit</button>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            class="cinput"
+          />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your email"
+            class="cinput"
+          />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your phone"
+            class="cinput"
+          />
+          <textarea
+            name=""
+            id=""
+            placeholder="Enter Your Concerns"
+            class="cinput"
+            cols="30"
+            rows="5"
+          ></textarea>
+          <button class="btn btn-dark">Submit</button>
         </form>
       </div>
     </section>
@@ -165,5 +170,6 @@
         Copyright &copy; ABDULLAH - All Rights Reserved.
       </p>
     </footer>
+    <script src="js/resp.js"></script>
   </body>
 </html>
