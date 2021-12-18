@@ -121,3 +121,26 @@
 .btn-small {
   padding: 5px 8px;
 }
+
+.section {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+}
+
+.left-section {
+    flex-direction: row-reverse;
+}
+
+.paragraph {
+  padding: 0 20px;
+}
+
+.image img {
+  width: 200px;
+  border: grey 2px solid;
+  border-radius: 100px;
+}
