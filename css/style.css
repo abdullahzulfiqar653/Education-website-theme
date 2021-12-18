@@ -1,9 +1,8 @@
-* {
+body {
+  font-family: "Ubuntu", sans-serif;
+
   margin: 0;
   padding: 0;
-}
-.body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .navbar {
@@ -40,6 +39,7 @@
 .nav-left li a {
   text-decoration: none;
   color: aliceblue;
+  font-size: 1.2rem;
 }
 .nav-left li a:hover {
   color: violet;
@@ -132,7 +132,7 @@
 }
 
 .left-section {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .paragraph {
@@ -143,4 +143,29 @@
   width: 200px;
   border: grey 2px solid;
   border-radius: 100px;
+}
+.contact {
+  height: 60vh;
+  background-color: honeydew;
+}
+.contact .cinput {
+  text-decoration: none;
+  width: 100%;
+  margin: 10px auto;
+  padding: 5px 5px;
+  font-size: 1rem;
+  border: rgb(159, 105, 197) 2px solid;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-dark {
+  color: lightseagreen;
+  font-weight: bold;
+  border: rgb(159, 105, 197) 2px solid;
+}
+
+.form {
+  max-width: 500px;
+  margin: 10px auto;
 }
